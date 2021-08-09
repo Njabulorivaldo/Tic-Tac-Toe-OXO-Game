@@ -1,5 +1,5 @@
 #Njabulo Mdluli
-#University of Cape Town Assinment
+#University of Cape Town Assignment
 
 @##!@#%%%
 	Reading improves @writing#
