@@ -90,7 +90,7 @@ class Game(QWidget, GameClient):
     def gui_new_game(self):
         '''
         clears the board by updating the board with blank images.
-        '''
+        
         self.shape1.setPixmap(QPixmap('blank.gif'))
         self.shape2.setPixmap(QPixmap('blank.gif'))
         self.shape3.setPixmap(QPixmap('blank.gif'))
@@ -99,7 +99,14 @@ class Game(QWidget, GameClient):
         self.shape6.setPixmap(QPixmap('blank.gif'))
         self.shape7.setPixmap(QPixmap('blank.gif'))
         self.shape8.setPixmap(QPixmap('blank.gif'))
-        self.shape9.setPixmap(QPixmap('blank.gif'))  
+        self.shape9.setPixmap(QPixmap('blank.gif'))
+        
+        '''
+        
+        #I just added these two lines of code hence I wrote this code in my first year
+        
+        for i in range(9):
+            self.shape.+str(i+1).setPixmap(QPixmap('blank.gif'))
         
         
     def host_name(self):
